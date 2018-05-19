@@ -1,0 +1,8 @@
+D:\MyDir\Unity_Manage\Programme\C#\JsonTrain15\JsonTrain15\bin\Debug\JsonTrain15.exe.config
+D:\MyDir\Unity_Manage\Programme\C#\JsonTrain15\JsonTrain15\obj\Debug\JsonTrain15.csprojResolveAssemblyReference.cache
+D:\MyDir\Unity_Manage\Programme\C#\JsonTrain15\JsonTrain15\bin\Debug\JsonTrain15.exe
+D:\MyDir\Unity_Manage\Programme\C#\JsonTrain15\JsonTrain15\bin\Debug\JsonTrain15.pdb
+D:\MyDir\Unity_Manage\Programme\C#\JsonTrain15\JsonTrain15\bin\Debug\Newtonsoft.Json.dll
+D:\MyDir\Unity_Manage\Programme\C#\JsonTrain15\JsonTrain15\bin\Debug\Newtonsoft.Json.xml
+D:\MyDir\Unity_Manage\Programme\C#\JsonTrain15\JsonTrain15\obj\Debug\JsonTrain15.exe
+D:\MyDir\Unity_Manage\Programme\C#\JsonTrain15\JsonTrain15\obj\Debug\JsonTrain15.pdb
