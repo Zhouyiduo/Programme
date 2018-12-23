@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserControlTrain", "UserControlTrain.csproj", "{18B93248-550F-4E2A-84B6-9AD75D3ADF54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserControlLib", "..\UserControlLib\UserControlLib.csproj", "{C506B625-B62B-49EF-A336-ED9A7B30631D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18B93248-550F-4E2A-84B6-9AD75D3ADF54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18B93248-550F-4E2A-84B6-9AD75D3ADF54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18B93248-550F-4E2A-84B6-9AD75D3ADF54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18B93248-550F-4E2A-84B6-9AD75D3ADF54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C506B625-B62B-49EF-A336-ED9A7B30631D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C506B625-B62B-49EF-A336-ED9A7B30631D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C506B625-B62B-49EF-A336-ED9A7B30631D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C506B625-B62B-49EF-A336-ED9A7B30631D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB8F7468-959D-402E-85F1-38189E8EB572}
+	EndGlobalSection
+EndGlobal
