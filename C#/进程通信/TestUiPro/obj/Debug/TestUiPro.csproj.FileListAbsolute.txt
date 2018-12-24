@@ -1,0 +1,11 @@
+E:\MyProject\Programme\C#\进程通信\TestUiPro\bin\Debug\TestUiPro.exe.config
+E:\MyProject\Programme\C#\进程通信\TestUiPro\obj\Debug\TestUiPro.csprojResolveAssemblyReference.cache
+E:\MyProject\Programme\C#\进程通信\TestUiPro\obj\Debug\TestUiPro.Form1.resources
+E:\MyProject\Programme\C#\进程通信\TestUiPro\obj\Debug\TestUiPro.Properties.Resources.resources
+E:\MyProject\Programme\C#\进程通信\TestUiPro\obj\Debug\TestUiPro.csproj.GenerateResource.Cache
+E:\MyProject\Programme\C#\进程通信\TestUiPro\bin\Debug\TestUiPro.exe
+E:\MyProject\Programme\C#\进程通信\TestUiPro\bin\Debug\TestUiPro.pdb
+E:\MyProject\Programme\C#\进程通信\TestUiPro\bin\Debug\ProIOPro.dll
+E:\MyProject\Programme\C#\进程通信\TestUiPro\bin\Debug\ProIOPro.pdb
+E:\MyProject\Programme\C#\进程通信\TestUiPro\obj\Debug\TestUiPro.exe
+E:\MyProject\Programme\C#\进程通信\TestUiPro\obj\Debug\TestUiPro.pdb

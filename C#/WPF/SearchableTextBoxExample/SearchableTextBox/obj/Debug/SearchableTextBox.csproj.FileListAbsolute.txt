@@ -1,0 +1,27 @@
+c:\users\zhuowp\documents\visual studio 2017\Projects\SearchableTextBoxExample\SearchableTextBox\bin\Debug\SearchableTextBox.dll
+c:\users\zhuowp\documents\visual studio 2017\Projects\SearchableTextBoxExample\SearchableTextBox\bin\Debug\SearchableTextBox.pdb
+c:\users\zhuowp\documents\visual studio 2017\Projects\SearchableTextBoxExample\SearchableTextBox\obj\Debug\SearchableTextBox.csprojResolveAssemblyReference.cache
+c:\users\zhuowp\documents\visual studio 2017\Projects\SearchableTextBoxExample\SearchableTextBox\obj\Debug\GeneratedInternalTypeHelper.g.cs
+c:\users\zhuowp\documents\visual studio 2017\Projects\SearchableTextBoxExample\SearchableTextBox\obj\Debug\SearchableTextBox_MarkupCompile.cache
+c:\users\zhuowp\documents\visual studio 2017\Projects\SearchableTextBoxExample\SearchableTextBox\obj\Debug\SearchableTextBox_MarkupCompile.lref
+c:\users\zhuowp\documents\visual studio 2017\Projects\SearchableTextBoxExample\SearchableTextBox\obj\Debug\Themes\SearchableTextBoxt.baml
+c:\users\zhuowp\documents\visual studio 2017\Projects\SearchableTextBoxExample\SearchableTextBox\obj\Debug\Themes\Generic.baml
+c:\users\zhuowp\documents\visual studio 2017\Projects\SearchableTextBoxExample\SearchableTextBox\obj\Debug\SearchableTextBox.g.resources
+c:\users\zhuowp\documents\visual studio 2017\Projects\SearchableTextBoxExample\SearchableTextBox\obj\Debug\SearchableTextBox.Properties.Resources.resources
+c:\users\zhuowp\documents\visual studio 2017\Projects\SearchableTextBoxExample\SearchableTextBox\obj\Debug\SearchableTextBox.csproj.GenerateResource.Cache
+c:\users\zhuowp\documents\visual studio 2017\Projects\SearchableTextBoxExample\SearchableTextBox\obj\Debug\SearchableTextBox.dll
+c:\users\zhuowp\documents\visual studio 2017\Projects\SearchableTextBoxExample\SearchableTextBox\obj\Debug\SearchableTextBox.pdb
+C:\Users\macc\Downloads\SearchableTextBoxExample\SearchableTextBox\bin\Debug\SearchableTextBox.dll
+C:\Users\macc\Downloads\SearchableTextBoxExample\SearchableTextBox\bin\Debug\SearchableTextBox.pdb
+C:\Users\macc\Downloads\SearchableTextBoxExample\SearchableTextBox\obj\Debug\SearchableTextBox.csprojAssemblyReference.cache
+C:\Users\macc\Downloads\SearchableTextBoxExample\SearchableTextBox\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\macc\Downloads\SearchableTextBoxExample\SearchableTextBox\obj\Debug\SearchableTextBox_MarkupCompile.cache
+C:\Users\macc\Downloads\SearchableTextBoxExample\SearchableTextBox\obj\Debug\SearchableTextBox_MarkupCompile.lref
+C:\Users\macc\Downloads\SearchableTextBoxExample\SearchableTextBox\obj\Debug\Themes\SearchableTextBoxt.baml
+C:\Users\macc\Downloads\SearchableTextBoxExample\SearchableTextBox\obj\Debug\Themes\Generic.baml
+C:\Users\macc\Downloads\SearchableTextBoxExample\SearchableTextBox\obj\Debug\SearchableTextBox.g.resources
+C:\Users\macc\Downloads\SearchableTextBoxExample\SearchableTextBox\obj\Debug\SearchableTextBox.Properties.Resources.resources
+C:\Users\macc\Downloads\SearchableTextBoxExample\SearchableTextBox\obj\Debug\SearchableTextBox.csproj.GenerateResource.cache
+C:\Users\macc\Downloads\SearchableTextBoxExample\SearchableTextBox\obj\Debug\SearchableTextBox.csproj.CoreCompileInputs.cache
+C:\Users\macc\Downloads\SearchableTextBoxExample\SearchableTextBox\obj\Debug\SearchableTextBox.dll
+C:\Users\macc\Downloads\SearchableTextBoxExample\SearchableTextBox\obj\Debug\SearchableTextBox.pdb

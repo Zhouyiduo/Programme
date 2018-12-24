@@ -1,0 +1,10 @@
+E:\MyProject\Programme\C#\进程通信\ProIO\new\ProIOPro\bin\Debug\ProIOPro.dll
+E:\MyProject\Programme\C#\进程通信\ProIO\new\ProIOPro\bin\Debug\ProIOPro.pdb
+E:\MyProject\Programme\C#\进程通信\ProIO\new\ProIOPro\obj\Debug\ProIOPro.csprojResolveAssemblyReference.cache
+E:\MyProject\Programme\C#\进程通信\ProIO\new\ProIOPro\obj\Debug\ProIOPro.dll
+E:\MyProject\Programme\C#\进程通信\ProIO\new\ProIOPro\obj\Debug\ProIOPro.pdb
+E:\MyProject\Programme\C#\进程通信\ProIOPro\bin\Debug\ProIOPro.dll
+E:\MyProject\Programme\C#\进程通信\ProIOPro\bin\Debug\ProIOPro.pdb
+E:\MyProject\Programme\C#\进程通信\ProIOPro\obj\Debug\ProIOPro.dll
+E:\MyProject\Programme\C#\进程通信\ProIOPro\obj\Debug\ProIOPro.pdb
+E:\MyProject\Programme\C#\进程通信\ProIOPro\obj\Debug\ProIOPro.csproj.CoreCompileInputs.cache

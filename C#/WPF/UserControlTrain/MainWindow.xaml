@@ -6,7 +6,7 @@
 		xmlns:controls="clr-namespace:UserControlLib;assembly=UserControlLib"
         xmlns:local="clr-namespace:UserControlTrain"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800"
+        Title="MainWindow" Height="637.85" Width="892.523"
 		>
 
 
@@ -15,12 +15,43 @@
 			<ResourceDictionary.MergedDictionaries>
 				<ResourceDictionary Source="LocalDic.xaml"></ResourceDictionary>
 				<ResourceDictionary Source="pack://application:,,,/UserControlLib;Component/Dic.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="pack://application:,,,/UserControlLib;Component/Template/Control/CT.xaml"></ResourceDictionary>
 			</ResourceDictionary.MergedDictionaries>
 		</ResourceDictionary>
 	</Window.Resources>
 	
 	<Grid >
-		<Button Style="{StaticResource UMyButton}"/>
-	</Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="149*"/>
+            <ColumnDefinition Width="49*"/>
+        </Grid.ColumnDefinitions>
+        <Button Style="{StaticResource UMyButton}" Margin="296,160,100,159"/>
+        <Button Content="控件模板" Template="{StaticResource buttonTemplate}" HorizontalAlignment="Left" Margin="128,363,0,0" VerticalAlignment="Top" Width="100" Height="100"/>
+        <Button Content="数据模板" HorizontalAlignment="Left" Margin="233,363,0,0" VerticalAlignment="Top" Width="100" Height="50"/>
+        <Button Content="布局模板" HorizontalAlignment="Left" Margin="340,363,0,0" VerticalAlignment="Top" Width="100" Height="50"/>
+
+        <TextBox x:Name="SearchBox"  TabIndex="0" BorderThickness="1" Margin="2" Height="23" HorizontalAlignment="Left" Width="110" Grid.Column="0"   ToolTipService.ToolTip="Please input keywords" ToolTipService.InitialShowDelay="1" ToolTipService.Placement="MousePoint">
+            <TextBox.Resources>
+                <VisualBrush x:Key="HelpBrush" TileMode="None" Opacity="0.5" Stretch="None" AlignmentX="Left">
+                    <VisualBrush.Visual>
+                        <TextBlock FontStyle="Italic" Text="Search Files"/>
+                    </VisualBrush.Visual>
+                </VisualBrush>
+            </TextBox.Resources>
+            <TextBox.Style>
+                <Style TargetType="TextBox">
+                    <Style.Triggers>
+                        <Trigger Property="Text" Value="{x:Null}">
+                            <Setter Property="Background" Value="{StaticResource HelpBrush}"/>
+                        </Trigger>
+                        <Trigger Property="Text" Value="">
+                            <Setter Property="Background" Value="{StaticResource HelpBrush}"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </TextBox.Style>
+        </TextBox>
+        
+    </Grid>
 	
 </Window>

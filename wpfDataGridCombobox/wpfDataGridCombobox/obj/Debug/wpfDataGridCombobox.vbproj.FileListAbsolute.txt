@@ -1,0 +1,46 @@
+C:\Users\hardenchen\AppData\Local\Temporary Projects\wpfDataGridCombobox\bin\Debug\wpfDataGridCombobox.exe.config
+C:\Users\hardenchen\AppData\Local\Temporary Projects\wpfDataGridCombobox\bin\Debug\wpfDataGridCombobox.exe
+C:\Users\hardenchen\AppData\Local\Temporary Projects\wpfDataGridCombobox\bin\Debug\wpfDataGridCombobox.pdb
+C:\Users\hardenchen\AppData\Local\Temporary Projects\wpfDataGridCombobox\bin\Debug\wpfDataGridCombobox.xml
+C:\Users\hardenchen\AppData\Local\Temporary Projects\wpfDataGridCombobox\obj\Debug\MainWindow.baml
+C:\Users\hardenchen\AppData\Local\Temporary Projects\wpfDataGridCombobox\obj\Debug\uc_Person.baml
+C:\Users\hardenchen\AppData\Local\Temporary Projects\wpfDataGridCombobox\obj\Debug\MainWindow.g.vb
+C:\Users\hardenchen\AppData\Local\Temporary Projects\wpfDataGridCombobox\obj\Debug\uc_Person.g.vb
+C:\Users\hardenchen\AppData\Local\Temporary Projects\wpfDataGridCombobox\obj\Debug\Application.g.vb
+C:\Users\hardenchen\AppData\Local\Temporary Projects\wpfDataGridCombobox\obj\Debug\wpfDataGridCombobox_MarkupCompile.cache
+C:\Users\hardenchen\AppData\Local\Temporary Projects\wpfDataGridCombobox\obj\Debug\wpfDataGridCombobox.g.resources
+C:\Users\hardenchen\AppData\Local\Temporary Projects\wpfDataGridCombobox\obj\Debug\wpfDataGridCombobox.Resources.resources
+C:\Users\hardenchen\AppData\Local\Temporary Projects\wpfDataGridCombobox\obj\Debug\wpfDataGridCombobox.vbproj.GenerateResource.Cache
+C:\Users\hardenchen\AppData\Local\Temporary Projects\wpfDataGridCombobox\obj\Debug\wpfDataGridCombobox.exe
+C:\Users\hardenchen\AppData\Local\Temporary Projects\wpfDataGridCombobox\obj\Debug\wpfDataGridCombobox.xml
+C:\Users\hardenchen\AppData\Local\Temporary Projects\wpfDataGridCombobox\obj\Debug\wpfDataGridCombobox.pdb
+C:\Users\hardenchen\AppData\Local\Temporary Projects\wpfDataGridCombobox\obj\Debug\Window1.baml
+C:\Users\hardenchen\AppData\Local\Temporary Projects\wpfDataGridCombobox\obj\Debug\Window1.g.vb
+C:\Users\hardenchen\AppData\Local\Temporary Projects\wpfDataGridCombobox\obj\Debug\GeneratedInternalTypeHelper.g.vb
+C:\Users\hardenchen\AppData\Local\Temporary Projects\wpfDataGridCombobox\obj\Debug\wpfDataGridCombobox_MarkupCompile.lref
+C:\Users\hardenchen\Documents\Visual Studio 2012\Projects\wpfDataGridCombobox\wpfDataGridCombobox\bin\Debug\wpfDataGridCombobox.exe.config
+C:\Users\hardenchen\Documents\Visual Studio 2012\Projects\wpfDataGridCombobox\wpfDataGridCombobox\obj\Debug\wpfDataGridCombobox.exe
+C:\Users\hardenchen\Documents\Visual Studio 2012\Projects\wpfDataGridCombobox\wpfDataGridCombobox\obj\Debug\wpfDataGridCombobox.xml
+C:\Users\hardenchen\Documents\Visual Studio 2012\Projects\wpfDataGridCombobox\wpfDataGridCombobox\obj\Debug\wpfDataGridCombobox.pdb
+E:\MyProject\Programme\wpfDataGridCombobox\wpfDataGridCombobox\bin\Debug\wpfDataGridCombobox.exe.config
+E:\MyProject\Programme\wpfDataGridCombobox\wpfDataGridCombobox\bin\Debug\wpfDataGridCombobox.exe
+E:\MyProject\Programme\wpfDataGridCombobox\wpfDataGridCombobox\bin\Debug\wpfDataGridCombobox.pdb
+E:\MyProject\Programme\wpfDataGridCombobox\wpfDataGridCombobox\bin\Debug\wpfDataGridCombobox.xml
+E:\MyProject\Programme\wpfDataGridCombobox\wpfDataGridCombobox\obj\Debug\wpfDataGridCombobox.vbprojAssemblyReference.cache
+E:\MyProject\Programme\wpfDataGridCombobox\wpfDataGridCombobox\obj\Debug\MainWindow.baml
+E:\MyProject\Programme\wpfDataGridCombobox\wpfDataGridCombobox\obj\Debug\uc_Person.baml
+E:\MyProject\Programme\wpfDataGridCombobox\wpfDataGridCombobox\obj\Debug\MainWindow.g.vb
+E:\MyProject\Programme\wpfDataGridCombobox\wpfDataGridCombobox\obj\Debug\uc_Person.g.vb
+E:\MyProject\Programme\wpfDataGridCombobox\wpfDataGridCombobox\obj\Debug\Window1.g.vb
+E:\MyProject\Programme\wpfDataGridCombobox\wpfDataGridCombobox\obj\Debug\Application.g.vb
+E:\MyProject\Programme\wpfDataGridCombobox\wpfDataGridCombobox\obj\Debug\GeneratedInternalTypeHelper.g.vb
+E:\MyProject\Programme\wpfDataGridCombobox\wpfDataGridCombobox\obj\Debug\wpfDataGridCombobox_MarkupCompile.cache
+E:\MyProject\Programme\wpfDataGridCombobox\wpfDataGridCombobox\obj\Debug\wpfDataGridCombobox_MarkupCompile.lref
+E:\MyProject\Programme\wpfDataGridCombobox\wpfDataGridCombobox\obj\Debug\Window1.baml
+E:\MyProject\Programme\wpfDataGridCombobox\wpfDataGridCombobox\obj\Debug\wpfDataGridCombobox.g.resources
+E:\MyProject\Programme\wpfDataGridCombobox\wpfDataGridCombobox\obj\Debug\wpfDataGridCombobox.Resources.resources
+E:\MyProject\Programme\wpfDataGridCombobox\wpfDataGridCombobox\obj\Debug\wpfDataGridCombobox.vbproj.GenerateResource.cache
+E:\MyProject\Programme\wpfDataGridCombobox\wpfDataGridCombobox\obj\Debug\wpfDataGridCombobox.vbproj.CoreCompileInputs.cache
+E:\MyProject\Programme\wpfDataGridCombobox\wpfDataGridCombobox\obj\Debug\wpfDataGridCombobox.exe
+E:\MyProject\Programme\wpfDataGridCombobox\wpfDataGridCombobox\obj\Debug\wpfDataGridCombobox.xml
+E:\MyProject\Programme\wpfDataGridCombobox\wpfDataGridCombobox\obj\Debug\wpfDataGridCombobox.pdb

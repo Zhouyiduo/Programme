@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27703.2000
-MinimumVisualStudioVersion = 10.0.40219.1
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserControlTrain", "UserControlTrain.csproj", "{18B93248-550F-4E2A-84B6-9AD75D3ADF54}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserControlLib", "..\UserControlLib\UserControlLib.csproj", "{C506B625-B62B-49EF-A336-ED9A7B30631D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestOfDataConverter", "TestOfDataConverter\TestOfDataConverter.csproj", "{7E854EB3-6DDB-4640-AE35-91DD4A7C1FC9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +21,10 @@ Global
 		{C506B625-B62B-49EF-A336-ED9A7B30631D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C506B625-B62B-49EF-A336-ED9A7B30631D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C506B625-B62B-49EF-A336-ED9A7B30631D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E854EB3-6DDB-4640-AE35-91DD4A7C1FC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E854EB3-6DDB-4640-AE35-91DD4A7C1FC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E854EB3-6DDB-4640-AE35-91DD4A7C1FC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E854EB3-6DDB-4640-AE35-91DD4A7C1FC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

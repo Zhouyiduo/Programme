@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchableTextBoxExample", "SearchableTextBoxExample\SearchableTextBoxExample.csproj", "{5B30C30D-D2D0-4AEC-B3D7-19DF70AC7DBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchableTextBox", "SearchableTextBox\SearchableTextBox.csproj", "{DBAB5CE3-4F2C-47FE-A006-D716F67E6771}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client.MVVM", "Client.MVVM\Client.MVVM.csproj", "{200346AF-9E01-47F9-97E4-D9243999DAD6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B30C30D-D2D0-4AEC-B3D7-19DF70AC7DBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B30C30D-D2D0-4AEC-B3D7-19DF70AC7DBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B30C30D-D2D0-4AEC-B3D7-19DF70AC7DBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B30C30D-D2D0-4AEC-B3D7-19DF70AC7DBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBAB5CE3-4F2C-47FE-A006-D716F67E6771}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBAB5CE3-4F2C-47FE-A006-D716F67E6771}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBAB5CE3-4F2C-47FE-A006-D716F67E6771}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBAB5CE3-4F2C-47FE-A006-D716F67E6771}.Release|Any CPU.Build.0 = Release|Any CPU
+		{200346AF-9E01-47F9-97E4-D9243999DAD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{200346AF-9E01-47F9-97E4-D9243999DAD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{200346AF-9E01-47F9-97E4-D9243999DAD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{200346AF-9E01-47F9-97E4-D9243999DAD6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

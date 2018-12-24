@@ -1,0 +1,51 @@
+﻿<Window x:Class="TestOfDataConverter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:TestOfDataConverter"
+        xmlns:UC="clr-namespace:TestOfDataConverter"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+     
+        <local:CategoryToSourceConverter x:Key="cts" />
+        <local:StateToNullableBoolConverter x:Key="stnb" />
+    </Window.Resources>
+    <!--
+    <StackPanel Background="LightBlue" >
+        <ListBox x:Name="listBoxPlane" 
+                 Height="160"
+                 Margin="5" >
+            <ListBox.ItemTemplate >
+                <DataTemplate >
+                    <StackPanel Orientation="Horizontal">
+                        <Image Width="20"
+                               Height="20"
+                               Source="{Binding Path=Category,Converter={StaticResource cts}}" />
+                        <TextBlock Text="{Binding Path=Name}"
+                                   Width="60"
+                                   Margin="80,0" />
+                        <CheckBox IsThreeState="True"
+                                  IsChecked="{Binding Path=State,Converter={StaticResource stnb}}" />
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <Button x:Name="buttonLoad"
+                Content="Load"
+                Height="25"
+                Margin="5,0"
+                Click="buttonLoad_Click"
+                />
+        <Button x:Name="buttonSave" 
+                Content="Save"
+                Height="25"
+                Margin="5,5"
+                Click="buttonSave_Click"
+                />
+
+       
+    </StackPanel>
+    -->
+    <UC:SearchTextBox Width ="264" Height="30" />
+    
+ 
+</Window>

@@ -1,0 +1,10 @@
+E:\MyProject\Programme\C#\进程通信\UiPro\UiPro\bin\Debug\UiPro.exe.config
+E:\MyProject\Programme\C#\进程通信\UiPro\UiPro\obj\Debug\UiPro.FormEx.resources
+E:\MyProject\Programme\C#\进程通信\UiPro\UiPro\obj\Debug\UiPro.Properties.Resources.resources
+E:\MyProject\Programme\C#\进程通信\UiPro\UiPro\obj\Debug\UiPro.csproj.GenerateResource.Cache
+E:\MyProject\Programme\C#\进程通信\UiPro\UiPro\bin\Debug\UiPro.exe
+E:\MyProject\Programme\C#\进程通信\UiPro\UiPro\bin\Debug\UiPro.pdb
+E:\MyProject\Programme\C#\进程通信\UiPro\UiPro\bin\Debug\ProIOPro.dll
+E:\MyProject\Programme\C#\进程通信\UiPro\UiPro\bin\Debug\ProIOPro.pdb
+E:\MyProject\Programme\C#\进程通信\UiPro\UiPro\obj\Debug\UiPro.exe
+E:\MyProject\Programme\C#\进程通信\UiPro\UiPro\obj\Debug\UiPro.pdb
