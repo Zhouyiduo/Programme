@@ -23,6 +23,7 @@ namespace TestOfDataConverter
         public SearchTextBox()
         {
             InitializeComponent();
+            _btnSearch.
         }
 
         private TextBox _ttbInput = null;

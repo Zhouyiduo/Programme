@@ -25,3 +25,17 @@ C:\Users\macc\Downloads\SearchableTextBoxExample\SearchableTextBox\obj\Debug\Sea
 C:\Users\macc\Downloads\SearchableTextBoxExample\SearchableTextBox\obj\Debug\SearchableTextBox.csproj.CoreCompileInputs.cache
 C:\Users\macc\Downloads\SearchableTextBoxExample\SearchableTextBox\obj\Debug\SearchableTextBox.dll
 C:\Users\macc\Downloads\SearchableTextBoxExample\SearchableTextBox\obj\Debug\SearchableTextBox.pdb
+E:\MyProject\Programme\C#\WPF\SearchableTextBoxExample\SearchableTextBox\bin\Debug\SearchableTextBox.dll
+E:\MyProject\Programme\C#\WPF\SearchableTextBoxExample\SearchableTextBox\bin\Debug\SearchableTextBox.pdb
+E:\MyProject\Programme\C#\WPF\SearchableTextBoxExample\SearchableTextBox\obj\Debug\SearchableTextBox.csprojAssemblyReference.cache
+E:\MyProject\Programme\C#\WPF\SearchableTextBoxExample\SearchableTextBox\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\MyProject\Programme\C#\WPF\SearchableTextBoxExample\SearchableTextBox\obj\Debug\SearchableTextBox_MarkupCompile.cache
+E:\MyProject\Programme\C#\WPF\SearchableTextBoxExample\SearchableTextBox\obj\Debug\SearchableTextBox_MarkupCompile.lref
+E:\MyProject\Programme\C#\WPF\SearchableTextBoxExample\SearchableTextBox\obj\Debug\Themes\SearchableTextBoxt.baml
+E:\MyProject\Programme\C#\WPF\SearchableTextBoxExample\SearchableTextBox\obj\Debug\Themes\Generic.baml
+E:\MyProject\Programme\C#\WPF\SearchableTextBoxExample\SearchableTextBox\obj\Debug\SearchableTextBox.g.resources
+E:\MyProject\Programme\C#\WPF\SearchableTextBoxExample\SearchableTextBox\obj\Debug\SearchableTextBox.Properties.Resources.resources
+E:\MyProject\Programme\C#\WPF\SearchableTextBoxExample\SearchableTextBox\obj\Debug\SearchableTextBox.csproj.GenerateResource.cache
+E:\MyProject\Programme\C#\WPF\SearchableTextBoxExample\SearchableTextBox\obj\Debug\SearchableTextBox.csproj.CoreCompileInputs.cache
+E:\MyProject\Programme\C#\WPF\SearchableTextBoxExample\SearchableTextBox\obj\Debug\SearchableTextBox.dll
+E:\MyProject\Programme\C#\WPF\SearchableTextBoxExample\SearchableTextBox\obj\Debug\SearchableTextBox.pdb
