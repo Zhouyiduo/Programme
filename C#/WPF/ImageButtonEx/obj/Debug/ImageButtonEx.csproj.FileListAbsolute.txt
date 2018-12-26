@@ -1,0 +1,13 @@
+E:\MyProject\Programme\C#\WPF\ImageButtonEx\bin\Debug\ImageButtonEx.exe.config
+E:\MyProject\Programme\C#\WPF\ImageButtonEx\bin\Debug\ImageButtonEx.exe
+E:\MyProject\Programme\C#\WPF\ImageButtonEx\bin\Debug\ImageButtonEx.pdb
+E:\MyProject\Programme\C#\WPF\ImageButtonEx\obj\Debug\ImageButtonEx.csprojResolveAssemblyReference.cache
+E:\MyProject\Programme\C#\WPF\ImageButtonEx\obj\Debug\MainWindow.baml
+E:\MyProject\Programme\C#\WPF\ImageButtonEx\obj\Debug\MainWindow.g.cs
+E:\MyProject\Programme\C#\WPF\ImageButtonEx\obj\Debug\App.g.cs
+E:\MyProject\Programme\C#\WPF\ImageButtonEx\obj\Debug\ImageButtonEx_MarkupCompile.cache
+E:\MyProject\Programme\C#\WPF\ImageButtonEx\obj\Debug\ImageButtonEx.g.resources
+E:\MyProject\Programme\C#\WPF\ImageButtonEx\obj\Debug\ImageButtonEx.Properties.Resources.resources
+E:\MyProject\Programme\C#\WPF\ImageButtonEx\obj\Debug\ImageButtonEx.csproj.GenerateResource.Cache
+E:\MyProject\Programme\C#\WPF\ImageButtonEx\obj\Debug\ImageButtonEx.exe
+E:\MyProject\Programme\C#\WPF\ImageButtonEx\obj\Debug\ImageButtonEx.pdb

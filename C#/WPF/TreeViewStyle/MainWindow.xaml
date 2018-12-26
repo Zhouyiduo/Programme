@@ -1,0 +1,36 @@
+﻿<Window x:Class="TreeViewStyle.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+
+
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="TreeVievDefStyle.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    
+    
+    <Grid>
+        <TreeView  ItemsSource="{Binding TData}" HorizontalAlignment="Left" Height="277" Margin="138,10,0,0" VerticalAlignment="Top" Width="157">
+           
+            <TreeView.ItemTemplate >
+                <HierarchicalDataTemplate ItemsSource="{Binding ChildNodes}">
+                    <StackPanel Orientation="Horizontal" Height="28">
+                        <TextBlock Text="{Binding Name }" FontSize="13" VerticalAlignment="Center" Margin="3,0,0,0"></TextBlock>
+                    </StackPanel>
+                </HierarchicalDataTemplate>
+            </TreeView.ItemTemplate>
+
+            <TreeView.ItemContainerStyle>
+                <Style TargetType="{x:Type TreeViewItem}" BasedOn="{StaticResource ExTreeItemStyle}">
+                    <Setter Property="IsExpanded" Value="False" />
+                    
+                </Style>
+            </TreeView.ItemContainerStyle>
+        </TreeView>
+
+    </Grid>
+</Window>
