@@ -26,12 +26,14 @@
 
     <Style TargetType="DataGrid">
         <!--网格线颜色-->
-        <Setter Property="CanUserResizeColumns" Value="false"/>
+        <!--<Setter Property="CanUserResizeColumns" Value="false"/>-->
+        <Setter Property="CanUserResizeColumns" Value="True"/>
         <Setter Property="Background" Value="#ffffff"/>
         <Setter Property="BorderBrush" Value="#ffffff"/>
         <Setter Property="CanUserAddRows" Value="False"/>
         <!--<Setter Property="RowHeaderWidth" Value="0"/>-->
         <Setter Property="FontSize" Value="12"/>
+       
 
         <Setter Property="RowHeaderStyle" Value="{StaticResource DG_RowHeader}"/>
         <Setter Property="HorizontalGridLinesBrush">
@@ -55,6 +57,20 @@
     </Style>
 
     <Style TargetType="DataGridColumnHeader">
+        <Style.Resources>
+            <ControlTemplate x:Key="ct" TargetType="{x:Type Thumb}">
+                <Grid x:Name="bg">
+                    <Grid.Background>
+                        <LinearGradientBrush StartPoint="0.2,0" EndPoint="0.77,0.9">
+                            <GradientStop Color="#dedede" Offset="0"/>
+                            <GradientStop Color="#dedede" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Grid.Background>
+                </Grid>
+                
+            </ControlTemplate>
+        </Style.Resources>
+        
         <Setter Property="SnapsToDevicePixels" Value="True"/>
         <Setter Property="MinWidth" Value="0"/>
         <Setter Property="MinHeight" Value="28"/>
@@ -75,6 +91,18 @@
                             </TextBlock>
                             <!--<Rectangle Width="1" Fill="#000000" Grid.ColumnSpan="1" />-->
                             <Rectangle  Width="1" Fill="#dedede" Grid.ColumnSpan="1" HorizontalAlignment="Right"/>
+
+
+                            <Thumb x:Name="PART_RightHeaderGripper"
+                                Cursor="SizeWE" 
+                                HorizontalAlignment="Right" 
+                                Width="1"
+                                Height="30"
+                                Background="Transparent"
+                                VerticalAlignment="Center" 
+                                   Template = "{StaticResource ct}"
+                                   >
+                            </Thumb>
                         </Grid>
                     </Border>
                 </ControlTemplate>

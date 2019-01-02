@@ -6,7 +6,8 @@
              xmlns:CommControl = "clr-namespace:PublicControlLibrary.CostomControl;assembly=PublicControlLibrary"
              Title="查看企业清单"
              Height="534" Width="868"
-             ResizeMode="NoResize"
+             WindowChrome.WindowChrome="{DynamicResource WindowChromeKey}"
+             ResizeMode="CanResize"
              WindowStyle="None"
              Margin="0,0,0,0"
              WindowStartupLocation="CenterScreen" 
@@ -23,8 +24,6 @@
     
     <Window.Resources>
 
-       
-        
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="pack://application:,,,/PublicControlLibrary;component/Themes/Generic.xaml" />
@@ -34,16 +33,17 @@
                 <ResourceDictionary Source="pack://application:,,,/PublicControlLibrary;component/Themes/Generic_Grid.xaml" />
             </ResourceDictionary.MergedDictionaries>
 
-
-            <WindowChrome x:Key="WindowChromeKey">
+            <WindowChrome x:Key="WindowChromeKey" >
+                
                 <WindowChrome.ResizeBorderThickness>
-                    <Thickness>1</Thickness>
+                    <Thickness>5</Thickness>
                 </WindowChrome.ResizeBorderThickness>
+
+                <WindowChrome.CaptionHeight> 5 </WindowChrome.CaptionHeight>
+                
             </WindowChrome>
             
         </ResourceDictionary>
-
-        
 
     </Window.Resources>
 

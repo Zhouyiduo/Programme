@@ -16,11 +16,9 @@
 
     <Grid>
         <DataGrid Name="dataGridAlarm" 
-              AutoGenerateColumns ="False"
-              ItemsSource="{ Binding TData, Mode=Default}" 
+             AutoGenerateColumns ="False"
+             ItemsSource="{ Binding TData, Mode=Default}" 
               >
-
-            
 
             <!--<DataGrid.RowStyle>
                 <Style TargetType = "{x:Type DataGridRow}" >
@@ -29,11 +27,10 @@
             </DataGrid.RowStyle>-->
 
             <DataGrid.Columns>
-            <DataGridTextColumn Header="索引" Binding="{Binding Id}" />
-                <DataGridTextColumn Header="名字" Binding="{Binding Name}"/>
-                <DataGridTextColumn Header="内容" Binding="{Binding Context}"/>
-            
-        </DataGrid.Columns >
+                <DataGridTextColumn Width="10*" Header="索引" Binding="{Binding Id}" />
+                <DataGridTextColumn Width="10*" Header="名字" Binding="{Binding Name}"/>
+                <DataGridTextColumn Width="10*" Header="内容" Binding="{Binding Context}"/>
+            </DataGrid.Columns >
     </DataGrid>
 
         <!--<TextBox Height="80" Width="450" x:Name="web_param_addr_tbx" Margin="296,854,246,35"  >
