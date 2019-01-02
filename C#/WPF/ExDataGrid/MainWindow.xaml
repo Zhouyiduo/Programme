@@ -9,28 +9,34 @@
     <Window.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="MyGridStyle1.xaml" />
+                <ResourceDictionary Source="MyGridStyle.xaml" />
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Window.Resources>
 
     <Grid>
-    <DataGrid Name="dataGridAlarm" 
-              Height="500"
-              Width ="500"
+        <DataGrid Name="dataGridAlarm" 
               AutoGenerateColumns ="False"
               ItemsSource="{ Binding TData, Mode=Default}" 
               >
-        
-        <DataGrid.Columns>
-            <DataGridTextColumn Width="70" Header="索引" Binding="{Binding Id}" />
-            <DataGridTextColumn Width="90" Header="名字" Binding="{Binding Name}"/>
-            <DataGridTextColumn Width="100*" Header="内容" Binding="{Binding Context}"/>
+
+            
+
+            <!--<DataGrid.RowStyle>
+                <Style TargetType = "{x:Type DataGridRow}" >
+                    <Setter Property="Height" Value="Auto"/>
+                </Style>
+            </DataGrid.RowStyle>-->
+
+            <DataGrid.Columns>
+            <DataGridTextColumn Header="索引" Binding="{Binding Id}" />
+                <DataGridTextColumn Header="名字" Binding="{Binding Name}"/>
+                <DataGridTextColumn Header="内容" Binding="{Binding Context}"/>
             
         </DataGrid.Columns >
     </DataGrid>
 
-        <TextBox Height="80" Width="450" x:Name="web_param_addr_tbx" Margin="5,0,0,0"  >
+        <!--<TextBox Height="80" Width="450" x:Name="web_param_addr_tbx" Margin="296,854,246,35"  >
             <TextBox.Resources>
                 <VisualBrush x:Key="HelpBrush" TileMode="None" Opacity="0.3" Stretch="None" AlignmentX="Left" AlignmentY="Top">
                     <VisualBrush.Visual>
@@ -50,6 +56,6 @@
                     </Style.Triggers>
                 </Style>
             </TextBox.Style>
-        </TextBox>
+        </TextBox>-->
     </Grid>
 </Window>

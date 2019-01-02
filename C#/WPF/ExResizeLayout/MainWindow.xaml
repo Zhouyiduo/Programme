@@ -1,0 +1,69 @@
+﻿<Window x:Class="ExResizeLayout.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="500" Width="500"
+        WindowStyle = "None"
+        ResizeMode = "CanResizeWithGrip"
+        WindowChrome.WindowChrome="{DynamicResource WindowChromeKey}" 
+        Name="WindowName"
+        Loaded="WindowName_Loaded_1"
+        Drop="WindowName_Drop_1"
+        SizeChanged="WindowName_SizeChanged_1"
+         xmlns:convers="clr-namespace:ExResizeLayout"
+        >
+
+    <Window.Resources>
+        <WindowChrome x:Key="WindowChromeKey">
+            <WindowChrome.ResizeBorderThickness>
+                <Thickness>1</Thickness>
+            </WindowChrome.ResizeBorderThickness>
+        </WindowChrome>
+
+        <convers:CalOneColumnWidth  x:Key="calOneColumnWidth"/>
+    
+
+        
+    </Window.Resources>
+
+    <Grid Name="GridNameTwo">
+        <Grid Name="GridName">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            
+            <Grid Grid.Row= "0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="450"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <StackPanel  Grid.Column="0" Background="#f3f3f3" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" MouseLeftButtonDown="StackPanel_MouseLeftButtonDown_1" />
+                <Button Grid.Column="1"  Background="#dedede" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Click="Button_Click_2"/>
+                
+            </Grid>
+
+            <Grid Grid.Row= "1">
+                <!--<TextBox Name="textBox1" Margin="0,0,0,0" Grid.Row="1" Height="50" Width="100" Background= "#f3f3f3" Text="{Binding RelativeSource={RelativeSource FindAncestor,AncestorType={x:Type Grid},AncestorLevel=1},Path=Name}" RenderTransformOrigin="-0.71,0.12" />
+                <TextBox Name="textBox2"  Margin="300,0,0,0" Grid.Row="1" Height="50" Width="100" Background= "#f3f3f3" Text="{Binding RelativeSource={RelativeSource FindAncestor,AncestorType={x:Type Grid},AncestorLevel=2},Path=Name}" />-->
+                <DataGrid Name="dataGrid1" Margin="10,10,108,255">
+                    
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Width = "20"
+                                            Binding="{Binding Index}" Header="编码"/>
+                        <DataGridTextColumn 
+                            Width="4*" Binding="{Binding Name}" Header="名字"/>
+                        <DataGridTextColumn Width="4*" Binding="{Binding Context}" Header="内容"/>
+                        
+                        
+                    </DataGrid.Columns>
+                    
+                </DataGrid>
+                <Button Content="Button" HorizontalAlignment="Left" Margin="363,329,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_3"/>
+
+            </Grid>
+            
+        </Grid>
+
+    </Grid>
+</Window>

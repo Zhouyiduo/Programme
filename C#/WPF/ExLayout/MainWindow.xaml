@@ -1,0 +1,22 @@
+﻿<Window x:Class="ExLayout.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" 
+        Height="534" Width="868"
+       WindowStyle="None" ResizeMode="CanResize" WindowStartupLocation="CenterScreen" Background="#ffffff" ShowInTaskbar="False" BorderThickness="1" BorderBrush="#dedede">
+    <Grid  Height="534" Width="868">
+            <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="868"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="34"/>
+                <RowDefinition Height="63"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <WrapPanel Grid.Row="0" Grid.Column="0" Height="34" Background="#f3f3f3">
+            <TextBlock Margin="15,10,0,10" Text="查看企业清单" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="14" FontFamily="微软雅黑" Foreground="#333333" Background="#f3f3f3" />
+        </WrapPanel>
+
+    </Grid>
+</Window>

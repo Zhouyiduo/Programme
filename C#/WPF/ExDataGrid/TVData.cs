@@ -14,7 +14,8 @@ namespace ExDataGrid
         {
             for (int i = 0; i < 3; i++ )
             {
-                TVData data = new TVData(i, "Name" + i.ToString(), "Context" + i.ToString());
+                TVData data = new TVData(i, "Name" + i.ToString() + "Name" + i.ToString() + "Name" + i.ToString() + "Name" + i.ToString() + "Name" + i.ToString(),
+                    "Context" + i.ToString() + "\n" + "Context" + i.ToString() + "\n" + "Context" + i.ToString() + "\n" + "Context" + i.ToString());
                 lstData.Add(data);
             }
             return;

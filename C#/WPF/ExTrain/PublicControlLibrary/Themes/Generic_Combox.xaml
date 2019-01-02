@@ -1,0 +1,90 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:PublicControlLibrary">
+
+
+    <Style x:Key="FBToggleButton" TargetType="ToggleButton">
+        <Setter Property="Foreground" Value="#000000"></Setter>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate>
+                    <Grid>
+                        <Rectangle Grid.Column="1" Name="Back" HorizontalAlignment="Right" Width="30" Height="30">
+                            <Rectangle.Fill>
+                                <VisualBrush TileMode="None" Opacity="0.3" Stretch="None">
+                                    <VisualBrush.Visual>
+                                        <Image Margin = "6,12.5,6,12.5" Source= "..\Image\下拉-默认.png" />
+                                    </VisualBrush.Visual>
+                                </VisualBrush>
+                            </Rectangle.Fill>
+                        </Rectangle>
+                    </Grid>
+
+                    <ControlTemplate.Triggers>
+                        <Trigger  Property="IsMouseOver"  Value="True">
+                            <Setter Property="Fill" TargetName="Back">
+                                <Setter.Value>
+                                    <VisualBrush TileMode="None" Opacity="0.3" Stretch="None">
+                                        <VisualBrush.Visual>
+                                            <Image Margin = "6,12.5,6,12.5" Source= "..\Image\下拉-点击.png" />
+                                        </VisualBrush.Visual>
+                                    </VisualBrush>
+                                    
+                                </Setter.Value>
+                            </Setter>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style TargetType="ComboBox" x:Key="stlComboBox">
+        <Setter Property="SnapsToDevicePixels" Value="True"/>
+        <Setter Property="ScrollViewer.HorizontalScrollBarVisibility" Value="Auto"/>
+        <Setter Property="ScrollViewer.VerticalScrollBarVisibility" Value="Auto"/>
+        <Setter Property="ScrollViewer.CanContentScroll" Value="True"/>
+        <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+        <Setter Property="Foreground" Value="Black"></Setter>
+        <Setter Property="Height" Value="30"></Setter>
+        <Setter Property="Margin" Value="0,0,0,0"></Setter>
+        <Setter Property="FontSize" Value="12" ></Setter>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="ComboBox">
+
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="28"/>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBox Padding="10,5,0,0" Margin="0,0,0,0" Grid.Column="0" Grid.ColumnSpan ="2"
+                                 Text="{TemplateBinding Text}" 
+                                 BorderBrush="#dedede"
+                                 BorderThickness ="1,1,1,1"
+                                 IsReadOnly="True"
+                                 >
+                        </TextBox>
+
+                        <ToggleButton Grid.Column="1" Style="{StaticResource FBToggleButton}" IsChecked="{Binding Path=IsDropDownOpen, Mode=TwoWay, RelativeSource={RelativeSource TemplatedParent}}" ClickMode="Press" Margin="1,1,1,1">
+                        </ToggleButton>
+
+                        <Popup IsOpen="{TemplateBinding IsDropDownOpen}" Placement="Bottom" x:Name="Popup" Focusable="False" AllowsTransparency="True" PopupAnimation="Slide">
+                            <Border CornerRadius="1" MaxHeight="{TemplateBinding MaxDropDownHeight}" MinWidth="{TemplateBinding ActualWidth}" x:Name="DropDown" SnapsToDevicePixels="True">
+                                <Border.Effect>
+                                    <DropShadowEffect Color="Black" BlurRadius="2" ShadowDepth="0" Opacity="0.5"/>
+                                </Border.Effect>
+                                <ScrollViewer Margin="0,0,0,0" Style="{DynamicResource ScrollViewerStyle}" MaxHeight="{TemplateBinding MaxDropDownHeight}" SnapsToDevicePixels="True" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" CanContentScroll="True">
+                                    <!-- StackPanel 用于显示子级，方法是将 IsItemsHost 设置为 True -->
+                                    <StackPanel IsItemsHost="True" KeyboardNavigation.DirectionalNavigation="Contained" Background="White"/>
+                                </ScrollViewer>
+                            </Border>
+                        </Popup>
+
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>
