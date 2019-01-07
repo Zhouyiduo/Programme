@@ -1,0 +1,5 @@
+E:\MyProject\Programme\C#\WPF\ExRef\bin\Debug\ExRef.exe.config
+E:\MyProject\Programme\C#\WPF\ExRef\bin\Debug\ExRef.exe
+E:\MyProject\Programme\C#\WPF\ExRef\bin\Debug\ExRef.pdb
+E:\MyProject\Programme\C#\WPF\ExRef\obj\Debug\ExRef.exe
+E:\MyProject\Programme\C#\WPF\ExRef\obj\Debug\ExRef.pdb
